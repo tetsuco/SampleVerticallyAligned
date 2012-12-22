@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10F1854C14152DD500AD928F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F1854B14152DD500AD928F /* UIKit.framework */; };
+		10F1854E14152DD500AD928F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F1854D14152DD500AD928F /* Foundation.framework */; };
+		10F1855014152DD500AD928F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F1854F14152DD500AD928F /* CoreGraphics.framework */; };
+		10F1855614152DD500AD928F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10F1855414152DD500AD928F /* InfoPlist.strings */; };
+		10F1855914152DD500AD928F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F1855814152DD500AD928F /* main.m */; };
+		10F1855C14152DD500AD928F /* SampleVerticallyAlignedAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F1855B14152DD500AD928F /* SampleVerticallyAlignedAppDelegate.m */; };
+		10F1855F14152DD500AD928F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10F1855D14152DD500AD928F /* MainWindow.xib */; };
+		10F1856614152DD500AD928F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F1854B14152DD500AD928F /* UIKit.framework */; };
+		10F1856714152DD500AD928F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F1854D14152DD500AD928F /* Foundation.framework */; };
+		10F1856814152DD500AD928F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F1854F14152DD500AD928F /* CoreGraphics.framework */; };
+		10F1857014152DD600AD928F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10F1856E14152DD600AD928F /* InfoPlist.strings */; };
+		10F1857314152DD600AD928F /* SampleVerticallyAlignedTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 10F1857214152DD600AD928F /* SampleVerticallyAlignedTests.h */; };
+		10F1857514152DD600AD928F /* SampleVerticallyAlignedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F1857414152DD600AD928F /* SampleVerticallyAlignedTests.m */; };
+		10F1858014152DEB00AD928F /* VerticallyAlignedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F1857F14152DEB00AD928F /* VerticallyAlignedLabel.m */; };
+		10F1858414152E2E00AD928F /* SampleVerticallyAlignedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F1858214152E2E00AD928F /* SampleVerticallyAlignedViewController.m */; };
+		10F1858514152E2E00AD928F /* SampleVerticallyAlignedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10F1858314152E2E00AD928F /* SampleVerticallyAlignedViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10F1856914152DD500AD928F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10F1853E14152DD500AD928F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10F1854614152DD500AD928F;
+			remoteInfo = SampleVerticallyAligned;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10F1854714152DD500AD928F /* SampleVerticallyAligned.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleVerticallyAligned.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F1854B14152DD500AD928F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		10F1854D14152DD500AD928F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		10F1854F14152DD500AD928F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		10F1855314152DD500AD928F /* SampleVerticallyAligned-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleVerticallyAligned-Info.plist"; sourceTree = "<group>"; };
+		10F1855514152DD500AD928F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10F1855714152DD500AD928F /* SampleVerticallyAligned-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleVerticallyAligned-Prefix.pch"; sourceTree = "<group>"; };
+		10F1855814152DD500AD928F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10F1855A14152DD500AD928F /* SampleVerticallyAlignedAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleVerticallyAlignedAppDelegate.h; sourceTree = "<group>"; };
+		10F1855B14152DD500AD928F /* SampleVerticallyAlignedAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleVerticallyAlignedAppDelegate.m; sourceTree = "<group>"; };
+		10F1855E14152DD500AD928F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		10F1856514152DD500AD928F /* SampleVerticallyAlignedTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleVerticallyAlignedTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F1856D14152DD600AD928F /* SampleVerticallyAlignedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleVerticallyAlignedTests-Info.plist"; sourceTree = "<group>"; };
+		10F1856F14152DD600AD928F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10F1857114152DD600AD928F /* SampleVerticallyAlignedTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleVerticallyAlignedTests-Prefix.pch"; sourceTree = "<group>"; };
+		10F1857214152DD600AD928F /* SampleVerticallyAlignedTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleVerticallyAlignedTests.h; sourceTree = "<group>"; };
+		10F1857414152DD600AD928F /* SampleVerticallyAlignedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleVerticallyAlignedTests.m; sourceTree = "<group>"; };
+		10F1857E14152DEB00AD928F /* VerticallyAlignedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticallyAlignedLabel.h; sourceTree = "<group>"; };
+		10F1857F14152DEB00AD928F /* VerticallyAlignedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticallyAlignedLabel.m; sourceTree = "<group>"; };
+		10F1858114152E2E00AD928F /* SampleVerticallyAlignedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleVerticallyAlignedViewController.h; sourceTree = "<group>"; };
+		10F1858214152E2E00AD928F /* SampleVerticallyAlignedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleVerticallyAlignedViewController.m; sourceTree = "<group>"; };
+		10F1858314152E2E00AD928F /* SampleVerticallyAlignedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleVerticallyAlignedViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10F1854414152DD500AD928F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F1854C14152DD500AD928F /* UIKit.framework in Frameworks */,
+				10F1854E14152DD500AD928F /* Foundation.framework in Frameworks */,
+				10F1855014152DD500AD928F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10F1856114152DD500AD928F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F1856614152DD500AD928F /* UIKit.framework in Frameworks */,
+				10F1856714152DD500AD928F /* Foundation.framework in Frameworks */,
+				10F1856814152DD500AD928F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10F1853C14152DD500AD928F = {
+			isa = PBXGroup;
+			children = (
+				10F1855114152DD500AD928F /* SampleVerticallyAligned */,
+				10F1856B14152DD500AD928F /* SampleVerticallyAlignedTests */,
+				10F1854A14152DD500AD928F /* Frameworks */,
+				10F1854814152DD500AD928F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10F1854814152DD500AD928F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10F1854714152DD500AD928F /* SampleVerticallyAligned.app */,
+				10F1856514152DD500AD928F /* SampleVerticallyAlignedTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10F1854A14152DD500AD928F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10F1854B14152DD500AD928F /* UIKit.framework */,
+				10F1854D14152DD500AD928F /* Foundation.framework */,
+				10F1854F14152DD500AD928F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10F1855114152DD500AD928F /* SampleVerticallyAligned */ = {
+			isa = PBXGroup;
+			children = (
+				10F1855A14152DD500AD928F /* SampleVerticallyAlignedAppDelegate.h */,
+				10F1855B14152DD500AD928F /* SampleVerticallyAlignedAppDelegate.m */,
+				10F1855D14152DD500AD928F /* MainWindow.xib */,
+				10F1858114152E2E00AD928F /* SampleVerticallyAlignedViewController.h */,
+				10F1858214152E2E00AD928F /* SampleVerticallyAlignedViewController.m */,
+				10F1858314152E2E00AD928F /* SampleVerticallyAlignedViewController.xib */,
+				10F1857E14152DEB00AD928F /* VerticallyAlignedLabel.h */,
+				10F1857F14152DEB00AD928F /* VerticallyAlignedLabel.m */,
+				10F1855214152DD500AD928F /* Supporting Files */,
+			);
+			path = SampleVerticallyAligned;
+			sourceTree = "<group>";
+		};
+		10F1855214152DD500AD928F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10F1855314152DD500AD928F /* SampleVerticallyAligned-Info.plist */,
+				10F1855414152DD500AD928F /* InfoPlist.strings */,
+				10F1855714152DD500AD928F /* SampleVerticallyAligned-Prefix.pch */,
+				10F1855814152DD500AD928F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10F1856B14152DD500AD928F /* SampleVerticallyAlignedTests */ = {
+			isa = PBXGroup;
+			children = (
+				10F1857214152DD600AD928F /* SampleVerticallyAlignedTests.h */,
+				10F1857414152DD600AD928F /* SampleVerticallyAlignedTests.m */,
+				10F1856C14152DD600AD928F /* Supporting Files */,
+			);
+			path = SampleVerticallyAlignedTests;
+			sourceTree = "<group>";
+		};
+		10F1856C14152DD600AD928F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10F1856D14152DD600AD928F /* SampleVerticallyAlignedTests-Info.plist */,
+				10F1856E14152DD600AD928F /* InfoPlist.strings */,
+				10F1857114152DD600AD928F /* SampleVerticallyAlignedTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10F1854614152DD500AD928F /* SampleVerticallyAligned */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10F1857814152DD600AD928F /* Build configuration list for PBXNativeTarget "SampleVerticallyAligned" */;
+			buildPhases = (
+				10F1854314152DD500AD928F /* Sources */,
+				10F1854414152DD500AD928F /* Frameworks */,
+				10F1854514152DD500AD928F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleVerticallyAligned;
+			productName = SampleVerticallyAligned;
+			productReference = 10F1854714152DD500AD928F /* SampleVerticallyAligned.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10F1856414152DD500AD928F /* SampleVerticallyAlignedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10F1857B14152DD600AD928F /* Build configuration list for PBXNativeTarget "SampleVerticallyAlignedTests" */;
+			buildPhases = (
+				10F1856014152DD500AD928F /* Sources */,
+				10F1856114152DD500AD928F /* Frameworks */,
+				10F1856214152DD500AD928F /* Resources */,
+				10F1856314152DD500AD928F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10F1856A14152DD500AD928F /* PBXTargetDependency */,
+			);
+			name = SampleVerticallyAlignedTests;
+			productName = SampleVerticallyAlignedTests;
+			productReference = 10F1856514152DD500AD928F /* SampleVerticallyAlignedTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10F1853E14152DD500AD928F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 10F1854114152DD500AD928F /* Build configuration list for PBXProject "SampleVerticallyAligned" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 10F1853C14152DD500AD928F;
+			productRefGroup = 10F1854814152DD500AD928F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10F1854614152DD500AD928F /* SampleVerticallyAligned */,
+				10F1856414152DD500AD928F /* SampleVerticallyAlignedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10F1854514152DD500AD928F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F1855614152DD500AD928F /* InfoPlist.strings in Resources */,
+				10F1855F14152DD500AD928F /* MainWindow.xib in Resources */,
+				10F1858514152E2E00AD928F /* SampleVerticallyAlignedViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10F1856214152DD500AD928F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F1857014152DD600AD928F /* InfoPlist.strings in Resources */,
+				10F1857314152DD600AD928F /* SampleVerticallyAlignedTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10F1856314152DD500AD928F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10F1854314152DD500AD928F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F1855914152DD500AD928F /* main.m in Sources */,
+				10F1855C14152DD500AD928F /* SampleVerticallyAlignedAppDelegate.m in Sources */,
+				10F1858014152DEB00AD928F /* VerticallyAlignedLabel.m in Sources */,
+				10F1858414152E2E00AD928F /* SampleVerticallyAlignedViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10F1856014152DD500AD928F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F1857514152DD600AD928F /* SampleVerticallyAlignedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10F1856A14152DD500AD928F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10F1854614152DD500AD928F /* SampleVerticallyAligned */;
+			targetProxy = 10F1856914152DD500AD928F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10F1855414152DD500AD928F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10F1855514152DD500AD928F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		10F1855D14152DD500AD928F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10F1855E14152DD500AD928F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		10F1856E14152DD600AD928F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10F1856F14152DD600AD928F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10F1857614152DD600AD928F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		10F1857714152DD600AD928F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		10F1857914152DD600AD928F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleVerticallyAligned/SampleVerticallyAligned-Prefix.pch";
+				INFOPLIST_FILE = "SampleVerticallyAligned/SampleVerticallyAligned-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		10F1857A14152DD600AD928F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleVerticallyAligned/SampleVerticallyAligned-Prefix.pch";
+				INFOPLIST_FILE = "SampleVerticallyAligned/SampleVerticallyAligned-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		10F1857C14152DD600AD928F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SampleVerticallyAligned.app/SampleVerticallyAligned";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleVerticallyAlignedTests/SampleVerticallyAlignedTests-Prefix.pch";
+				INFOPLIST_FILE = "SampleVerticallyAlignedTests/SampleVerticallyAlignedTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		10F1857D14152DD600AD928F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SampleVerticallyAligned.app/SampleVerticallyAligned";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleVerticallyAlignedTests/SampleVerticallyAlignedTests-Prefix.pch";
+				INFOPLIST_FILE = "SampleVerticallyAlignedTests/SampleVerticallyAlignedTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10F1854114152DD500AD928F /* Build configuration list for PBXProject "SampleVerticallyAligned" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F1857614152DD600AD928F /* Debug */,
+				10F1857714152DD600AD928F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10F1857814152DD600AD928F /* Build configuration list for PBXNativeTarget "SampleVerticallyAligned" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F1857914152DD600AD928F /* Debug */,
+				10F1857A14152DD600AD928F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10F1857B14152DD600AD928F /* Build configuration list for PBXNativeTarget "SampleVerticallyAlignedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F1857C14152DD600AD928F /* Debug */,
+				10F1857D14152DD600AD928F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10F1853E14152DD500AD928F /* Project object */;
+}
